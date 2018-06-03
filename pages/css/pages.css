@@ -15,15 +15,19 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+<<<<<<< HEAD
 /* Voeg jouw css hieraan toe */
 
 /* Table concurrentie */
 
+=======
+>>>>>>> 996f0f5fb4b0048d7c3d2e289344409d9e070566
 td,th {
     border: 1px solid #000;
     padding: 5px;
 }
 
+<<<<<<< HEAD
 /* Digital styleguide */
 
 .part{
@@ -157,3 +161,16 @@ td,th {
 .clear{
     clear: both;
 }
+=======
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+    
+
+
+/* Voeg jouw css hieraan toe */
+>>>>>>> 996f0f5fb4b0048d7c3d2e289344409d9e070566
