@@ -16,3 +16,144 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+/* Table concurrentie */
+
+td,th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Digital styleguide */
+
+.part{
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 15px;
+    overflow:auto;
+    margin-bottom: 10px;
+}
+
+    .part h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color:#595dd4;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .part h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color:#57CDEB;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .part p{
+        font-family: 'Open Sans', sans-serif;
+        color:#000;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .part a{
+        color:#595dd4;
+        font-family: 'Arial', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .part a:hover{
+        text-decoration: underline;
+    }
+
+    .part .font{
+        font-style: italic;
+        font-size: 14px;
+        background-color: #e8e5e5;
+        padding: 10px;
+        color: #727070;
+    }
+
+    .part .color{
+        width: 13.4%;
+        float: left;
+        border:10px solid #fff;
+        padding:25px 15px;
+        margin:5px;
+        text-align: center;
+        color:#fff;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .part .darkblue{
+        background-color:#595dd4;
+    }
+
+    .part .blue{
+        background-color:#44d47e;
+    }
+
+    .part .green{
+        background-color:#57cdeb;
+    }
+
+    .part .cyan{
+        background-color:#91ccc6;
+    }
+
+    .part .gray{
+        background-color:#d9d7d5;
+    }
+
+    .part .btn button, .part .btn span{
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .part .btn-standard button{
+        color: #fff;
+        background-color: #595dd4;
+        text-align: center;
+        padding:10px 40px;
+        float:left;
+        border: 2px solid #595dd4;
+        margin-right: 20px;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size:16px;
+    }
+
+    .part .btn-standard button:hover{
+        color: #595dd4;
+        background-color: #fff;
+        border: 2px solid #595dd4;
+    }
+
+    .part .btn-hover button{
+        color: #595dd4;
+        background-color: #fff;
+        text-align: center;
+        padding:10px 40px;
+        float:left;
+        border: 2px solid #595dd4;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size:16px;
+    }
+
+    .part .btn-hover button:hover{
+        color: #fff;
+        background-color: #595dd4;
+    }
+
+.clear{
+    clear: both;
+}
